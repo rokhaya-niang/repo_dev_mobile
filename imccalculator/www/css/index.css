@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    margin: 10px 0;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+}
+
+input {
+    width: 200px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+}
+
+#resultat {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2em;
+}
