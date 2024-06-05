@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
   "name": "sn.esp.dic3.p2024.todolistv2",
   "displayName": "ToDoListV2",
+=======
+  "name": "com.example.todolistapp",
+  "displayName": "TodoListApp",
+>>>>>>> d21bea93ef5f6ed720f5d45de8ff92585bc68085
   "version": "1.0.0",
   "description": "A sample Apache Cordova application that responds to the deviceready event.",
   "main": "index.js",
@@ -18,8 +23,13 @@
   },
   "cordova": {
     "platforms": [
+<<<<<<< HEAD
       "browser",
       "android"
+=======
+      "android",
+      "browser"
+>>>>>>> d21bea93ef5f6ed720f5d45de8ff92585bc68085
     ]
   }
 }

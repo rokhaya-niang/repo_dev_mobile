@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -43,3 +44,36 @@
     </div>
 </body>
 </html>
+=======
+<html>
+<head>
+    <title>TodoListApp</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="lib/jquery.mobile-1.4.5.min.css">
+    <script src="lib/jquery.min.js"></script>
+    <script src="lib/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div data-role="page" id="main-page">
+        <div data-role="header">
+            <h1>TodoList App</h1>
+        </div>
+        
+        <div data-role="content" class="content">
+            <input type="text" id="task-input" placeholder="Ajouter une nouvelle tâche">
+            <button id="add-task-btn">Ajouter</button>
+            <button id="reset-btn">Réinitialiser</button>
+
+            <div class="header"><h2>Tâches</h2></div>
+            <ul id="task-list" data-role="listview" data-inset="true">
+                <!-- Tâches seront ajoutées ici -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
+>>>>>>> d21bea93ef5f6ed720f5d45de8ff92585bc68085
