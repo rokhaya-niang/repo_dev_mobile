@@ -1,0 +1,6 @@
+[submodule "todolistApp"]
+	path = todolistApp
+	url = https://github.com/rokhaya-niang/repo_dev_mobile
+[submodule "todolistAppstApp"]
+	path = todolistAppstApp
+	url = https://github.com/rokhaya-niang/Dev_mobile
